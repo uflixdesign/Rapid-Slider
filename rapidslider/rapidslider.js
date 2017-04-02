@@ -1,5 +1,5 @@
 /*!
- * Rapid Slider v0.0.1 (https://cs.uflixdesign.com/rapid-slider)
+ * Rapid Slider v0.1 (https://cs.uflixdesign.com/rapid-slider)
  * Copyright 2011-2017 UFLIX DESIGN
  * Licensed under MIT (https://opensource.org/licenses/MIT)
  */
@@ -92,7 +92,6 @@
 
             pagination.on('click', 'li', function(e){
                 var page = pagination.find('li').index(this);
-                console.log( page );
                 self.show( page );
             });
         };
@@ -140,8 +139,6 @@
         };
 
         self.show = function(slideIndex){
-
-            console.log("SLIDE TO: ", slideIndex);
 
             if( self.sliding ) return;
             if( slideIndex >= slides.length ) return;
