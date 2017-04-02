@@ -1,5 +1,5 @@
 /*!
- * Rapid Slider v0.1 (https://cs.uflixdesign.com/rapid-slider)
+ * Rapid Slider v0.1.1 (https://cs.uflixdesign.com/rapid-slider)
  * Copyright 2011-2017 UFLIX DESIGN
  * Licensed under MIT (https://opensource.org/licenses/MIT)
  */
