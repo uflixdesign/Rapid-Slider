@@ -1,0 +1,73 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jQuery Rapid Slider</title>
+
+    <link rel="stylesheet" type="text/css" href="rapidslider/rapidslider.css" />
+
+    <style>
+        .rapidslider{
+            position: fixed;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 600px;
+        }
+
+        .slide-link{
+            background: #ffffff;
+            position: absolute;
+            top: 50%;
+            right: 30px;
+        }
+    </style>
+
+</head>
+<body>
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus cupiditate eaque eligendi facere id ipsum itaque laboriosam nam, nemo nobis nostrum officiis omnis praesentium repellendus, sed soluta unde voluptatum!
+
+<div class="rapidslider">
+    <div class="rapidslider-slides">
+        <div class="rapidslider-slide">
+            <img class="rapidslider-slide-image" title="Foodie" alt="" src="images/slide-01.jpg" />
+        </div>
+        <div class="rapidslider-slide">
+            <img class="rapidslider-slide-image" alt="" title="Woman" src="images/slide-02.jpg" />
+            <a class="slide-link" href="#">Slide Link</a>
+        </div>
+        <div class="rapidslider-slide">
+            <img class="rapidslider-slide-image" alt="" title="Dragonfly" src="images/slide-03.jpg" />
+        </div>
+        <div class="rapidslider-slide">
+            <img class="rapidslider-slide-image" alt="" title="House" src="images/slide-04.jpg" />
+        </div>
+    </div>
+
+    <ul class="rapidslider-pagination"></ul>
+    <div class="rapidslider-directions">
+        <a class="rapidslider-prev" href="#">&laquo;</a>
+        <span class="rapidslider-caption">Here will be the caption</span>
+        <a class="rapidslider-next" href="#">&raquo;</a>
+    </div>
+
+</div>
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab assumenda blanditiis culpa cupiditate, doloremque est illo incidunt magni neque odit optio, placeat quidem quod repellat saepe sint unde vel vitae.
+
+<script src="lib/jquery.2.2.4.min.js"></script>
+<script src="rapidslider/rapidslider.js"></script>
+
+<script>
+    $('.rapidslider').rapidslider({
+        autoplay: true,
+        speed: 300,
+        pause: 2000
+    });
+</script>
+
+</body>
+</html>
